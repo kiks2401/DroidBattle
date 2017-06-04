@@ -1,12 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidBattle.Plugins", "DroidBattle.Plugins.csproj", "{57D24285-EAF9-D9DF-7782-98CCF04511B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidBattle", "DroidBattle.csproj", "{0D46CBDC-18AE-914C-16D4-C99F12A46FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidBattle.Editor.Plugins", "DroidBattle.Editor.Plugins.csproj", "{AB82443F-BDF2-12E9-0F73-51E18BF79EDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D24285-EAF9-D9DF-7782-98CCF04511B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D24285-EAF9-D9DF-7782-98CCF04511B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D24285-EAF9-D9DF-7782-98CCF04511B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D24285-EAF9-D9DF-7782-98CCF04511B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D46CBDC-18AE-914C-16D4-C99F12A46FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D46CBDC-18AE-914C-16D4-C99F12A46FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D46CBDC-18AE-914C-16D4-C99F12A46FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D46CBDC-18AE-914C-16D4-C99F12A46FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB82443F-BDF2-12E9-0F73-51E18BF79EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB82443F-BDF2-12E9-0F73-51E18BF79EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB82443F-BDF2-12E9-0F73-51E18BF79EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB82443F-BDF2-12E9-0F73-51E18BF79EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
